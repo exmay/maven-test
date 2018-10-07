@@ -21,6 +21,7 @@ public class ItemsController {
         System.out.println("111");
         Items item = service.findByID(1);
         // 待解决，封装不进去
+        // 111
         model.addAttribute("item",item);
         return "item";
     }
